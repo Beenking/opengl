@@ -1,5 +1,4 @@
 #include<GL/glut.h>
-#pragma comment(linker,"/subsystem:\"windows\" /entry:\"mainCRTStartup\"")
 
 //绘制立方体的八个立体空间中的坐标值，原点即其中点
 GLfloat vertexNum[][3] = {
@@ -70,7 +69,8 @@ void IdleFunction()
 	angle += 0.02;
 	if (angle > 36000)
 		angle = 0;
-	glutPostRedisplay();
+	//glutPostRedisplay();
+	paint();
 }
 
 void reshapeFunction(int w, int h)
