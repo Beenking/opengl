@@ -67,7 +67,7 @@ void paint(void)
 
 void IdleFunction()
 {
-	angle += 2;
+	angle += 0.02;
 	if (angle > 36000)
 		angle = 0;
 	glutPostRedisplay();

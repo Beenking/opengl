@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "viewport_test1", "viewport_test1\viewport_test1.vcxproj", "{A4302162-A552-4629-90F6-6707DBE276AE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gl_viewport", "viewport_test1\viewport_test1.vcxproj", "{A4302162-A552-4629-90F6-6707DBE276AE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_circle", "test_circle\test_circle.vcxproj", "{DDF1129C-68DE-4086-8ED9-20D75977E412}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gl_circle", "test_circle\test_circle.vcxproj", "{DDF1129C-68DE-4086-8ED9-20D75977E412}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glut_cube", "glut_cube\glut_cube.vcxproj", "{0BAA6B1B-7A28-45D9-828F-280A582B6774}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gl_coordinate_object", "gl_coordinate_object\gl_coordinate_object.vcxproj", "{D94C5881-EA83-46A5-9D38-EDC5F8D489FD}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gl_pushMatrix", "gl_pushMatrix\gl_pushMatrix.vcxproj", "{D3C89F3E-98FD-4FD5-91AD-9771EFC9AFB8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glut_vertex_cube", "glut_vertex_cube\glut_vertex_cube.vcxproj", "{6A2B5BCB-AB0C-414E-B2AD-E2C53996D5B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,14 @@ Global
 		{D3C89F3E-98FD-4FD5-91AD-9771EFC9AFB8}.Release|x64.Build.0 = Release|x64
 		{D3C89F3E-98FD-4FD5-91AD-9771EFC9AFB8}.Release|x86.ActiveCfg = Release|Win32
 		{D3C89F3E-98FD-4FD5-91AD-9771EFC9AFB8}.Release|x86.Build.0 = Release|Win32
+		{6A2B5BCB-AB0C-414E-B2AD-E2C53996D5B4}.Debug|x64.ActiveCfg = Debug|x64
+		{6A2B5BCB-AB0C-414E-B2AD-E2C53996D5B4}.Debug|x64.Build.0 = Debug|x64
+		{6A2B5BCB-AB0C-414E-B2AD-E2C53996D5B4}.Debug|x86.ActiveCfg = Debug|Win32
+		{6A2B5BCB-AB0C-414E-B2AD-E2C53996D5B4}.Debug|x86.Build.0 = Debug|Win32
+		{6A2B5BCB-AB0C-414E-B2AD-E2C53996D5B4}.Release|x64.ActiveCfg = Release|x64
+		{6A2B5BCB-AB0C-414E-B2AD-E2C53996D5B4}.Release|x64.Build.0 = Release|x64
+		{6A2B5BCB-AB0C-414E-B2AD-E2C53996D5B4}.Release|x86.ActiveCfg = Release|Win32
+		{6A2B5BCB-AB0C-414E-B2AD-E2C53996D5B4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
