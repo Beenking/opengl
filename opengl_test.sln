@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gl_animation", "gl_animatio
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glut_vertex_cube", "glut_vertex_cube\glut_vertex_cube.vcxproj", "{6A2B5BCB-AB0C-414E-B2AD-E2C53996D5B4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gl_blend_test", "gl_blend_test\gl_blend_test.vcxproj", "{D10A1864-B5CC-4DD6-A45F-0821E843A3F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{6A2B5BCB-AB0C-414E-B2AD-E2C53996D5B4}.Release|x64.Build.0 = Release|x64
 		{6A2B5BCB-AB0C-414E-B2AD-E2C53996D5B4}.Release|x86.ActiveCfg = Release|Win32
 		{6A2B5BCB-AB0C-414E-B2AD-E2C53996D5B4}.Release|x86.Build.0 = Release|Win32
+		{D10A1864-B5CC-4DD6-A45F-0821E843A3F3}.Debug|x64.ActiveCfg = Debug|x64
+		{D10A1864-B5CC-4DD6-A45F-0821E843A3F3}.Debug|x64.Build.0 = Debug|x64
+		{D10A1864-B5CC-4DD6-A45F-0821E843A3F3}.Debug|x86.ActiveCfg = Debug|Win32
+		{D10A1864-B5CC-4DD6-A45F-0821E843A3F3}.Debug|x86.Build.0 = Debug|Win32
+		{D10A1864-B5CC-4DD6-A45F-0821E843A3F3}.Release|x64.ActiveCfg = Release|x64
+		{D10A1864-B5CC-4DD6-A45F-0821E843A3F3}.Release|x64.Build.0 = Release|x64
+		{D10A1864-B5CC-4DD6-A45F-0821E843A3F3}.Release|x86.ActiveCfg = Release|Win32
+		{D10A1864-B5CC-4DD6-A45F-0821E843A3F3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
